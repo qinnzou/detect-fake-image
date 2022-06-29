@@ -48,15 +48,32 @@ python eval.py
 ```
 
 ## Reference
-Some codes are borrowed from https://github.com/JStehouwer/FFD_CVPR2020 and https://github.com/ondyari/FaceForensics
+Some of the codes are based on https://github.com/JStehouwer/FFD_CVPR2020 and https://github.com/ondyari/FaceForensics
 
 ## Citation
 ```
 @inproceedings{cao2021metric,
   title={Metric Learning for Anti-Compression Facial Forgery Detection},
   author={Cao, Shenhao and Zou, Qin and Mao, Xiuqing and Ye, Dengpan and Wang, Zhongyuan},
-  booktitle={Proceedings of the 29th ACM International Conference on Multimedia},
+  booktitle={Proceedings of the 29th ACM International Conference on Multimedia (ACM MM 2021)},
   pages={1929--1937},
   year={2021}
+}
+
+If you use the codes in our work, you should also cite the following papers:
+
+@inproceedings{cvpr2020-dang,
+  title={On the Detection of Digital Face Manipulation},
+  author={Hao Dang, Feng Liu, Joel Stehouwer, Xiaoming Liu, Anil Jain},
+  booktitle={In Proceeding of IEEE Computer Vision and Pattern Recognition (CVPR 2020)},
+  address={Seattle, WA},
+  year={2020}
+}
+
+@inproceedings{roessler2019faceforensicspp,
+	author = {Andreas R\"ossler and Davide Cozzolino and Luisa Verdoliva and Christian Riess and Justus Thies and Matthias Nie{\ss}ner},
+	title = {Face{F}orensics++: Learning to Detect Manipulated Facial Images},
+	booktitle= {International Conference on Computer Vision (ICCV)},
+	year = {2019}
 }
 ```
